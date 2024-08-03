@@ -49,14 +49,50 @@
        
 }
 
+.nav-link {
+    font-weight: bold;
+    font-size: 14px;
+    
+    text-decoration: none;
+    color: #031D44;
+    padding: 20px 0px;
+    margin: 0px 20px;
+    display: inline-block;
+    
+    opacity: 0.75;
+ }
+  
+.nav-link:hover {
+    opacity: 1;
+  }
+  
+.nav-link::before {
+    transition: 300ms;
+    height: 5px;
+    content: "";
+    position: absolute;
+    background-color: #031D44;
+  }
+.nav-link-trans::before {
+    width: 100%;
+    bottom: 5px;
+    opacity: 0;
+  }
+  
+.nav-link-trans :hover::before {
+    bottom: 10px;
+    opacity: 1;
+  }  
 .content{
     left: 2px;
 }
 
 .content p{
     font-size: 2rem;
-    display: flex;
-    
+    display: flex;   
+}
+.content p:hover{
+    font-size: 2.3rem;
 }
 .content h4{
     font-size: 2rem;
@@ -74,29 +110,25 @@
     border-radius:20px ;
     transition: .2s ease;
     
-
-}
-button:nth-child(1){
-    background: transparent;
-    font-size: 20px;
     
 
+}
+button{
+    background: transparent;
+    font-size: 20px;
+    color: #001524;
+    border-radius: 5%;
+
 
 }
-button:nth-child(2){
-    background: transparent;
-    color: black;
-    margin-left: 1.6rem;
-    font-size: 20px;
-}
-button:nth-child(1):hover{
+
+
+button:hover{
     background:#ddbea9; 
     color: black;
 }
-button:nth-child(2):hover{
-    background-color: #ddbea9;
-    color: black;
-}
+
+
 .style .circle{
     aspect-ratio: 1;
     position: absolute;
@@ -351,7 +383,4 @@ form input,form textarea{
         font-size: 1.2em;
     }
 }
-    
-       
-        
-    
+
