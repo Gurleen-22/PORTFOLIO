@@ -438,6 +438,11 @@ form input,form textarea{
     }
 }
 @media only screen and (max-width: 480px){
+    .about-me{
+        font-family: fantasy;
+        font-size: 2rem;
+
+    }
     #second-page{
         position: relative;
         left: 22rem;
@@ -457,6 +462,9 @@ form input,form textarea{
             
         margin-bottom: 15rem;
     }    
+    .navbar a{
+        font-size: 1rem ;
+    }
 }
     
 
