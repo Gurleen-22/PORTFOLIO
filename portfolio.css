@@ -446,6 +446,17 @@ form input,form textarea{
         position: relative;
         right: -45rem;
     }
+    .project{
+        font-family: fantasy;
+        font-size: 8rem;
+    }
+    .small-project{
+            
+        position: relative;
+        font-size: 4rem;
+            
+        margin-bottom: 15rem;
+    }    
 }
     
 
