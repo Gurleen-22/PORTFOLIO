@@ -445,10 +445,17 @@ form input,form textarea{
     }
     .myself{
         width: 60rem;
+        position: relative;
+        left: 13rem ;
     }
     #second-page{
         position: relative;
         left: 22rem;
+    }
+    .extra{
+        position: relative;
+        right: 12rem;
+    }
     }
     .contact-me{
         position: relative;
