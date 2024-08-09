@@ -23,15 +23,6 @@ body{
 
 }
 
-.rbk{
-    width: 17rem;
-    background-color: #1b263b;
-    right: 0px;
-    position: absolute;
-    
-    
-}
-
 .style .circle{
     aspect-ratio: 1;
     position: absolute;
@@ -43,22 +34,24 @@ body{
     
 }
 .circle:nth-child(1){
-    background: linear-gradient( 90deg, #1b263b 50%, transparent 50%);
+    
     width: 25rem;
-    opacity: 90;
-    
-   
-
-    
-
-}
-.circle:nth-child(2){
-    background: red;
-    width: 20rem;
-    background-image: url(assets/ph4.jpg);
     background-size: cover;
-}
+    border: solid #001524;
+    border-width: .2rem;
+    border-left: 6rem;
+    animation: image 3s infinite alternate;
 
+}
+@keyframes image {
+    0% {
+      background-image: url('assets/p1.jpg');
+    }
+    100%{
+        background-image: url('assets/ph4.jpg');
+    }
+
+  }
 .overall{
     
     display: flex;
@@ -85,6 +78,7 @@ body{
     opacity: .9;
     justify-content: space-between;  
     margin-inline-start: 12rem; 
+    color: #003049;
 }
 
 .nav-link {
@@ -101,8 +95,9 @@ body{
  }
   
 .nav-link:hover {
-    opacity: 1;
+    opacity: 8;
     cursor: pointer;
+    color: #669bbc;
   }
   
 .nav-link::before {
@@ -166,7 +161,7 @@ body{
 }
 @keyframes textclip {
     to {
-      background-position: 200% center;
+      background-position: 100% center;
     }
   }
 .btn{
@@ -198,6 +193,7 @@ button:hover{
 .about-me{
     font-family: fantasy;
     text-align: center;
+    justify-content: center;
     font-size: 3rem;
     opacity: 0.6;
     transition: (5s ease ease-in-out);
@@ -208,6 +204,7 @@ button:hover{
     justify-content: center;
     text-align: center;
     margin-top: 2rem;
+    
 }    
 
 .extra{
@@ -230,6 +227,7 @@ button:hover{
     font-weight: 900;
     letter-spacing: 1px;
     margin-bottom: 14px;
+    
   }
 
 .extra ul {
@@ -319,10 +317,12 @@ button:hover{
     box-shadow: -1px 0 8px #0000;
     background-color: #001524;
     margin-bottom: 7rem;
+    margin-left: 12rem;
     
     
 
 }
+
 img{
     width: 28rem;
     height: 16rem;
@@ -403,93 +403,53 @@ form input,form textarea{
 }
 
 @media only screen and (max-width: 786px){
-    
-    .rbk{
-        position: relative;
-        width: 25rem;
-    }
-
     .style{
-        position: absolute;
-        right: 0;
-        margin-right: -23rem;   
-        
+        position: relative;
+        left: 9rem;
+        width: 20rem;
     }
-
-    .content{
-        font-size: 4px;
-        padding-right: 24rem;
-
-    }
-    
     #second-page{
         position: relative;
-        text-align: center;
-        left: 20rem;
-        font-size: 2.7rem;
-
-        
+        left: 15rem;
     }
-    .myself{
-        font-size: 35px;
-    }
-    .contact-me{
-        
-        margin-right: -25rem;
-    }
-
-}
-
-
-@media screen and (max-width: 480px) { 
-    .rbk{
+    .box:nth-child(1){
+        margin-left: 8rem;
         position: relative;
-        width: 22rem;
+        left:0.1rem;
         
     }
-
-    .circle{
+    .box:nth-child(2){
         position: relative;
-        margin-left: 59rem;
-        
-        
+        right: 12rem;
     }
+    .project{
+        font-family: fantasy;
+        font-size: 8rem;
 
-    .content{
-        font-size: 14px;
-        padding-right: 67rem;
-
-    }
-       
-    }
-    .about-me{
-        justify-content: center;
-        
-    }    
-    
-    .myself{
-        width: 70rem;
-        left: 35rem;
-    }
-    .skills{
-        text-align: center;
-        font-size: 3rem;
-        margin-left: 40rem;
-    }
-    .contact-me{
-        
-        margin-right: -55rem;
     }
     .small-project{
-        font-size: 5rem;
+        position: relative;
+        font-size: 4rem;
+        margin-bottom: 18rem;
     }
-    .box{
+    .contact-me{
+        position: relative;
+        right: -30rem;
+    }
+}
+@media only screen and (max-width: 480px){
+    #second-page{
+        position: relative;
+        left: 22rem;
+    }
+    .contact-me{
+        position: relative;
+        right: -45rem;
+    }
+}
+    
 
-        margin-inline-start: 15rem;
-    }
-    .user h3{
-        font-size: 5rem;
-    }
 
+    
 
 
