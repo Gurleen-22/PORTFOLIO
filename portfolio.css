@@ -271,7 +271,7 @@ button:hover{
     transform: scaleX(1);
   }
 .hobby{
-    margin-top: -.1rem;
+    margin-top: -90px;
 }
 
 .project .small-project{
@@ -303,7 +303,7 @@ button:hover{
 .cover{
     width: 600px;
     height: 400px;
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;  
     align-items: center;
     
@@ -441,6 +441,7 @@ form input,form textarea{
     .about-me{
         font-family: fantasy;
         font-size: 2rem;
+        margin-left: -6.5rem;
 
     }
     .myself{
@@ -470,12 +471,10 @@ form input,form textarea{
         margin-bottom: -7rem;
     }
     .project{
-        visibility: hidden;
+        clear:both;
     }
     .small-project{
-            
-        position: relative;
-        font-size: 7rem;
+        font-size: 8rem;
             
         margin-bottom: 15rem;
     }    
