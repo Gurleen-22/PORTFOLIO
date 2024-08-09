@@ -443,6 +443,9 @@ form input,form textarea{
         font-size: 2rem;
 
     }
+    .myself{
+        width: 100px;
+    }
     #second-page{
         position: relative;
         left: 22rem;
@@ -450,21 +453,25 @@ form input,form textarea{
     .contact-me{
         position: relative;
         right: -45rem;
+        margin-bottom: 7rem;
     }
     .project{
-        font-family: fantasy;
-        font-size: 8rem;
+        visibility: hidden;
     }
     .small-project{
             
         position: relative;
-        font-size: 4rem;
+        font-size: 6rem;
             
         margin-bottom: 15rem;
     }    
     .navbar a{
         font-size: 1rem ;
     }
+    .user h3{
+        font-size: 4rem;
+    }
+    
 }
     
 
