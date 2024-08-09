@@ -444,6 +444,7 @@ form input,form textarea{
         font-family: fantasy;
         font-size: 2rem;
         margin-left: -6.5rem;
+        width: 50rem;
 
     }
     .myself{
@@ -473,11 +474,12 @@ form input,form textarea{
         margin-bottom: -7rem;
     }
     .project{
-        clear:both;
+        display: none;
     }
     .small-project{
-        font-size: 8rem;
-            
+        margin-top: 5rem;
+        font-size: 9rem;
+        width: 50rem;    
         margin-bottom: 15rem;
     }    
     .navbar a{
