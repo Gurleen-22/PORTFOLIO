@@ -446,7 +446,7 @@ form input,form textarea{
     .myself{
         width: 60rem;
         position: relative;
-        right: 6rem;
+        left : -6rem;
     }
     #second-page{
         position: relative;
@@ -458,10 +458,10 @@ form input,form textarea{
 
     }
     .extra h2{
-        font-size: 2.7rem;
+        font-size: 2.9rem;
     }
     .extra ul li{
-        font-size: 20px;
+        font-size: 28px;
     }
     }
     .contact-me{
@@ -475,7 +475,7 @@ form input,form textarea{
     .small-project{
             
         position: relative;
-        font-size: 6rem;
+        font-size: 7rem;
             
         margin-bottom: 15rem;
     }    
