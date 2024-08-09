@@ -444,7 +444,7 @@ form input,form textarea{
 
     }
     .myself{
-        width: 100rem;
+        width: 60rem;
     }
     #second-page{
         position: relative;
@@ -471,16 +471,7 @@ form input,form textarea{
     .user h3{
         font-size: 4rem;
     }
-    .circle:nth-child(1){
     
-        width: 20rem;
-        background-size: cover;
-        border: solid #001524;
-        border-width: .2rem;
-        border-left: 6rem;
-        animation: image 3s infinite alternate;
-    
-    }
 }
     
 
