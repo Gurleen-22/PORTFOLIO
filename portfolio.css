@@ -437,7 +437,7 @@ form input,form textarea{
         right: -30rem;
     }
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 400px){
     .about-me{
         font-family: fantasy;
         font-size: 2rem;
@@ -471,7 +471,16 @@ form input,form textarea{
     .user h3{
         font-size: 4rem;
     }
+    .circle:nth-child(1){
     
+        width: 20rem;
+        background-size: cover;
+        border: solid #001524;
+        border-width: .2rem;
+        border-left: 6rem;
+        animation: image 3s infinite alternate;
+    
+    }
 }
     
 
