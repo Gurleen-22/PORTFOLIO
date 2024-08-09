@@ -446,7 +446,8 @@ form input,form textarea{
     .myself{
         width: 60rem;
         position: relative;
-        left: 13rem ;
+        left: 6rem ;
+        right: 6rem;
     }
     #second-page{
         position: relative;
@@ -454,7 +455,7 @@ form input,form textarea{
     }
     .extra{
         position: relative;
-        right: 12rem;
+        right: 5rem;
     }
     }
     .contact-me{
